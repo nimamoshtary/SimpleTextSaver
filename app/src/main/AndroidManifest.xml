@@ -7,13 +7,18 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="SimpleTextSaver"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleTextSaver"
-        tools:targetApi="31">
+        tools:targetApi="34">
+
+        <activity android:name=".MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
+            android:label="Splashscreen"
+            android:theme="@style/Theme.Transparent"
+            tools:ignore="Instantiatable"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,5 +27,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
