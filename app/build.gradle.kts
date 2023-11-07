@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "ir.nemone.simpletextsaver"
         minSdk = 25
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    buildToolsVersion = "34.0.0 rc2"
 }
 
 dependencies {
