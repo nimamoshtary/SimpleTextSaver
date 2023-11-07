@@ -7,6 +7,9 @@ android {
     namespace = "ir.nemone.simpletextsaver"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "ir.nemone.simpletextsaver"
         minSdk = 25
